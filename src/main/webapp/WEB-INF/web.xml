@@ -25,6 +25,11 @@
 		<servlet-class>coreservlets.OrderPage</servlet-class>
 	</servlet>
 
+	<servlet>
+		<servlet-name>Checkout</servlet-name>
+		<servlet-class>coreservlets.Checkout</servlet-class>
+	</servlet>
+
 	<servlet-mapping>
 		<servlet-name>KidsBooksPage</servlet-name>
 		<url-pattern>/kidsBooksPage</url-pattern>
@@ -38,5 +43,10 @@
 	<servlet-mapping>
 		<servlet-name>OrderPage</servlet-name>
 		<url-pattern>/onlineStore/orderPage</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Checkout</servlet-name>
+		<url-pattern>/checkout</url-pattern>
 	</servlet-mapping>
 </web-app>

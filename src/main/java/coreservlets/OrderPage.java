@@ -130,7 +130,7 @@ public void doGet(HttpServletRequest request,
              formatter.format(order.getTotalCost()));
         }
         String checkoutURL =
-          response.encodeURL("Checkout.html");
+          response.encodeURL("/checkout");
         // "Proceed to Checkout" button below table
         out.println
           ("</TABLE>\n" +
