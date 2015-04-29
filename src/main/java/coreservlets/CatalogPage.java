@@ -77,7 +77,9 @@ public abstract class CatalogPage extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String docType = "<!DOCTYPE HTML>\n";
 		out.println(docType + "<HTML>\n" + "<HEAD><TITLE>" + title
-				+ "</TITLE></HEAD>\n" + "<BODY BGCOLOR=\"#FDF5E6\">\n"
+				+ "</TITLE> \n" +
+				"<link rel=\"stylesheet\" type=\"text/css\" href=\"./../main.css\"> \n" +
+				" </HEAD>\n" + "<BODY BGCOLOR=\"#FDF5E6\">\n"
 				+ "<H1 ALIGN=\"CENTER\">" + title + "</H1>");
 		CatalogItem item;
 		for (int i = 0; i < items.length; i++) {
