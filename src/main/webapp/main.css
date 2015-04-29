@@ -1,0 +1,36 @@
+html{
+    text-align: center;
+    background: #FDF5E6;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    background: black;
+    color: white;
+    font-size: 4em;
+    margin-bottom: 200px;
+}
+
+.button{
+    font-size: 2em;
+    display: inline;
+    color: #111;
+    background: #fdc17b;
+    padding: 10px;
+    width: 700px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px 3px black;
+    transition: color 0.25s ease, background 0.25s ease;
+}
+
+.button:hover{
+    color: white;
+    background: #000000;
+}
