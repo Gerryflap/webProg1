@@ -30,6 +30,7 @@ iframe.homeLink{
 }
 
 .title{
+    padding: 20px 0 20px 0;
     background: black;
     color: white;
     font-size: 4em;
@@ -45,10 +46,13 @@ iframe.homeLink{
     width: 700px;
     margin: 10px;
     box-shadow: 2px 2px 3px 3px black;
-    transition: color 0.25s ease, background 0.25s ease;
+    transition: color 0.25s ease, background 0.25s ease, padding 1s ease, transform 1s ease;
+
 }
 
 .button:hover{
     color: white;
+    padding: 100px;
     background: #000000;
+    transform: rotate(360deg);
 }
