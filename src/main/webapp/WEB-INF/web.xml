@@ -37,6 +37,6 @@
 
 	<servlet-mapping>
 		<servlet-name>OrderPage</servlet-name>
-		<url-pattern>/orderPage</url-pattern>
+		<url-pattern>/onlineStore/orderPage</url-pattern>
 	</servlet-mapping>
 </web-app>

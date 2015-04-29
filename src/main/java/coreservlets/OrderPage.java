@@ -79,7 +79,8 @@ public void doGet(HttpServletRequest request,
                 "<HTML>\n" +
                 "<HEAD><TITLE>" + title + "</TITLE></HEAD>\n" +
                 "<BODY BGCOLOR=\"#FDF5E6\">\n" +
-                "<H1 ALIGN=\"CENTER\">" + title + "</H1>");
+                "<H1 ALIGN=\"CENTER\">" + title + "</H1>" +
+            "<a class=\"homeLink\" href=\"/\">home</a>");
     synchronized(session) {
       List<ItemOrder> itemsOrdered = cart.getItemsOrdered();
       if (itemsOrdered.size() == 0) {

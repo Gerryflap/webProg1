@@ -6,10 +6,27 @@ html{
 
 body{
     margin: 0;
+    height: 100%;
 }
 
 a{
     text-decoration: none;
+}
+
+iframe{
+    border: 0;
+    width: 600px;
+    height: 700px;
+
+}
+
+iframe.homeLink{
+    visibility: hidden;
+}
+
+.sidebar{
+    float: right;
+    height: 100%;
 }
 
 .title{
